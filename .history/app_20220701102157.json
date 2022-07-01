@@ -30,6 +30,7 @@
     },
     "plugins": [
       ["expo-build-properties", {"ios": {"useFrameworks": "dynamic"}}],
+      "@react-native-firebase/app",
       [
         "expo-media-library",
         {
