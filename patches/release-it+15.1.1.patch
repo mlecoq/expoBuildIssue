@@ -1,0 +1,14 @@
+diff --git a/node_modules/release-it/package.json b/node_modules/release-it/package.json
+index 742516d..b688809 100644
+--- a/node_modules/release-it/package.json
++++ b/node_modules/release-it/package.json
+@@ -38,7 +38,8 @@
+   "type": "module",
+   "exports": {
+     ".": "./lib/index.js",
+-    "./test/util": "./test/util/index.js"
++    "./test/util": "./test/util/index.js",
++    "./package.json": "./package.json"
+   },
+   "files": [
+     "bin",
